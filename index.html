@@ -3,31 +3,63 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link href="//db.onlinewebfonts.com/c/501e03d4c0303f394033bcaf435f4b3e?family=Suisse+Int'l+Medium" rel="stylesheet" type="text/css"/>
     <title>Main Page</title>
   </head>
   <body>
-    <nav class="top-nav">
-        <div class="top-nav_wrap wrapper d-flex">
-            <div class="top-nav__logo">
-                <a href="#">
-                    <img src="./images/top-nav_logo.png" alt="Logo">
-                </a>
-            </div>
+    <div class="header_container">
 
-            <div class="top-nav__menu d-flex">
-                <div class="top-nav__menu_items d-flex">
-                    <div class="top-nav__menu_item"><a href="#">Главная</a></div>
-                    <div class="top-nav__menu_item"><a href="#">Меню</a></div>
-                    <div class="top-nav__menu_item"><a href="#">Еще...</a></div>
+        <nav class="top-nav wrapper">
+            <div class="top-nav_wrap d-flex align-center">
+                <div class="top-nav__logo">
+                    <a href="#">
+                        <img src="./images/top-nav_logo.png" alt="Logo">
+                    </a>
                 </div>
-                <div class="top-nav__menu_buttons d-flex">
-                    <button class="top-nav__call_button"><img src="./images/svg/top-nav_call_button.xml" alt="#"></button>
-                    <button class="top-nav__cabinet_button"></button>
-                    <button class="top-nav__booking_button"></button>
+                <div class="top-nav__menu d-flex align-center">
+                    <div class="top-nav__menu_items d-flex">
+                        <div class="top-nav__menu_item"><a href="#">Главная</a></div>
+                        <div class="top-nav__menu_item"><a href="#">Меню</a></div>
+                        <div class="top-nav__menu_item"><a href="#">Еще...</a></div>
+                    </div>
+                    <div class="top-nav__menu_buttons d-flex">
+                        <button class="top-nav__call_button"><img src="./images/svg/top-nav_call_button.svg" alt="#"></button>
+                        <button class="top-nav__cabinet_button"><img src="./images/svg/top-nav_cabinet_button.svg" alt="#"></button>
+                        <button class="top-nav__booking_button red_button">Забронировать</button>
+                    </div>
+                </div>
+            </div>
+        </nav>
+
+        <div class="header_top wrapper">
+            <div class="header_top__bg"><img src="./images/header_bg.png" alt="Big logo"></div>
+
+            <div class="header_top__buttons d-flex">
+                <button class="booking_button red_button">Забронировать столик</button>
+                <button class="menu_button white_button">посмотреть меню</button>
+            </div>
+        </div>
+
+        <div class="first_screen">
+            <div class="first_screen_wrap wrapper d-flex">
+                <div class="first_screen__left">
+                    <img src="./images/svg/main_secondScreen_about.svg" alt="About night club">
+                    <p>С другой стороны сложившаяся структура организации требуют определения и уточнения модели развития. Значимость этих проблем настолько очевидна, что реализация намеченных плановых заданий требуют от нас анализа дальнейших направлений развития.</p>
+                    <p>Товарищи! постоянное информационно-пропагандистское обеспечение нашей деятельности требуют определения и уточнения направлений прогрессивного развития. Значимость этих проблем настолько очевидна, что рамки и место обучения кадров играет важную роль в формировании форм развития.</p>
+                    <a href="#">Читать больше</a>
+                </div>
+
+                <div class="first_screen__right">
+                    <div class="first_screen__details"><a href="#">Подробнее</a></div>
+                    <img src="./images/main_first-screen_bg.png" alt="Club photo">
                 </div>
             </div>
         </div>
-    </nav>
+    </div>
+
+    
   </body>
 </html>
 

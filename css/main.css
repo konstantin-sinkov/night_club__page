@@ -1,0 +1,58 @@
+
+
+
+.header_container {
+    background: linear-gradient(180deg, #222220 0%, #222220 11.92%, rgba(34, 34, 32, 0.87) 29.17%, rgba(34, 34, 32, 0.88) 71.8%, #222220 100%),
+                radial-gradient(rgba(189, 45, 67, 0.3), rgba(189, 45, 67, 0.1)),
+                url('../images/main_top-screen_header.png');
+    border: 1px solid #000000;
+    height: 940px;
+}
+
+
+
+.header_top__bg {
+    margin: 131px auto 58px;
+}
+
+.header_top__bg img {
+    width: 1046px;
+    height: 418px;
+}
+
+
+
+/* first-screen */
+
+.first_screen {
+    background-color: #222220;
+}
+
+.first_screen_wrap {
+    column-gap: 77px;
+}
+
+.first_screen__left img {
+    width: 370px;
+    height: 151px;
+    margin-bottom: 34px;
+}
+
+.first_screen__left p {
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 23px;
+    color: #8F8F8F;
+    margin-bottom: 20px;
+}
+
+.first_screen__left p:last-child {
+    margin-bottom: 0;
+}
+
+.first_screen__left a {
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 23px;
+    text-decoration-line: underline;
+}
