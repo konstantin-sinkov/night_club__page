@@ -9,12 +9,6 @@
     /* height: 940px; */
 }
 
- {
-    
-}
-
-
-
 .header_top__bg {
     width: 1046px;
     height: 418px;
@@ -77,7 +71,8 @@
     background: url("../images/main_arrow_1.png") right 0 top 7px no-repeat;
 }
 
-.first_screen__details a {
+.first_screen__details a,
+.bottom_screen__menu-arrow a {
     font-weight: 200;
     font-size: 18px;
     line-height: 23px;
@@ -109,10 +104,120 @@
 /* bottom_screen */
 .bottom_screen {
     background-color: #222220;
-    padding-top: 100px;
-    height: 1010px;
+    padding-top: 60px;
+    height: 1210px;
 }
 
-.
+.bottom_screen__right_head {
+    margin-top: 92px;
+}
+
+.bottom_screen__right p {
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 23px;
+    color: #8F8F8F;
+    margin-bottom: 56px;
+}
+
+.bottom_screen__menu-arrow {
+    width: 214px;
+    height: 23px;
+}
+
+.bottom_screen__contacts_wrap {
+    margin-top: 70px;
+    padding-bottom: 30px;
+    column-gap: 70px;
+}
+
+.bottom_screen__contacts_left {}
+
+.bottom_screen__contacts_left h2 {
+    margin-bottom: 51px;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 56px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.bottom_screen__contacts_left h5,
+.opening_hours h5 {
+    font-size: 24px;
+    font-weight: bold;
+    text-transform: capitalize;
+    color: #FFFFFF;
+}
+
+.h_contacts {
+    margin-bottom: 30px;
+}
+
+.h_booking {
+    margin-bottom: 25px;
+}
+
+.bottom_screen__contacts_left button {
+    width: 353px;
+    height: 50px;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+/* .bottom_screen__contacts_item:first-child {
+    background: url("../images/svg/bottom_screen__contacts_call.svg") left 5px no-repeat;
+}
+
+.bottom_screen__contacts_item:nth-child(1) {
+    background: url("../images/svg/bottom_screen__contacts_email.svg") left 0 top 7px no-repeat;
+}
+
+.bottom_screen__contacts_item:last-child {
+    background: url("../images/svg/bottom_screen__contacts_geotag.svg") left 0 top 7px no-repeat;
+} */
+
+.bottom_screen__contacts_item {
+    column-gap: 32px;
+    margin-bottom: 28px;
+}
+
+.bottom_screen__contacts_item > * {
+    display: flex;
+}
+
+.bottom_screen__contacts_item a {
+    font-weight: normal;
+    font-size: 24px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.social_media_block {
+    margin-top: 31px;
+    column-gap: 21px;
+}
+
+.bottom_screen__contacts_right__wrap {
+    padding-left: 70px;
+    /* width: 444px; */
+    border-left: 1px solid #525252;
+}
+
+.bottom_screen__contacts_right__wrap img {
+    margin-bottom: 30px;
+}
+
+.opening_hours {
+    margin-left: 173px;
+}
+
+.opening_hours p {
+    font-size: 24px;
+    color: #FFFFFF;
+}
+/* //bottom_screen */
+
+
 
 

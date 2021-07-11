@@ -92,9 +92,80 @@ button {
     color: #fff;
     text-decoration: none;
 }
-
-
-
-
-
 /* //top-nav */
+
+
+/* footer */
+footer {
+    height: 158px;
+    background-image: url("../images/footer_bgi.png");
+    padding-top: 34px;
+}
+
+.footer_wrap {
+    column-gap: 125px;
+}
+
+.footer__logo {
+    margin-bottom: 23px;
+}
+
+.footer__logo img {
+    width: 320px;
+    height: 69px;
+}
+
+.footer_left_block_policy {
+    column-gap: 21px;
+}
+
+.footer_left_block_policy a {
+    font-size: 13px;
+    line-height: 16px;
+    color: #9C9C9C;
+    display: block;
+}
+
+.footer_central_block {
+    margin-top: 10px;
+}
+
+.footer_nav_menu_wrap {
+    column-gap: 87px;
+    margin-bottom: 25px;
+}
+
+.footer_nav_menu_item {
+    margin-bottom: 15px;
+}
+
+.footer_nav_menu_item a {
+    font-weight: normal;
+    font-size: 16px;
+    color: #DCDCDC;
+    text-decoration: none;
+}
+
+.footer_central_block p {
+    width: 100%;
+    font-size: 13px;
+    color: #9C9C9C;
+    text-align: center;
+}
+
+.footer_right_block {
+    text-align: right;
+}
+
+.footer_right_block h3 {
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    color: #BD2D43;
+}
+
+.footer_right_block p {
+    font-size: 12px;
+    line-height: 14px;
+    color: #8F8F8F;
+}
